@@ -1,3 +1,4 @@
+
 import React from 'react'
 import ReactDOM from 'react-dom'
 
@@ -8,16 +9,15 @@ const Course ={
   [{
     name: 'Fundamentals of React',
     exercises: 10
-  }
-  ,{
+  },
+  {
     name: 'Using props to pass data',
     exercises: 7
-  }
-  ,{
+  },
+  {
     name: 'State of a component',
     exercises: 14
-  }
-  ],
+  }],
 }
 
 const Part= (props) =>{
@@ -55,7 +55,6 @@ const Total = (props) =>{
 }
 
 const App = () => {
-  let x=Course
   return (
     <div>
       <Header course={Course.name} />
